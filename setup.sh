@@ -8,7 +8,8 @@ cp .vimrc ~
 
 sudo apt-get -y install cmake
 sudo apt-get -y install python-dev
-
+sudo apt-get -y install mercurial
+sudo apt-get -y install build-essential
 
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 vim +PluginInstall +qall
